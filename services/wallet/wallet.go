@@ -25,9 +25,9 @@ var (
 )
 
 // Forking config.
-var addressFormat = "^TRTL([a-zA-Z0-9]{95}|[a-zA-Z0-9]{183})$"
-var divisor float64 = 100 // This is 100 for TRTL
-var transactionFee = 10 // This is 10 for TRTL
+var addressFormat = "^btcm([a-zA-Z0-9]{95}|[a-zA-Z0-9]{183})$"
+var divisor float64 = 10000 // This is 10000 for BTCM
+var transactionFee = 1000 // This is 1000 for BTCM
 
 func init() {
 	var err error
